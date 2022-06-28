@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bills.Reminder.Worker\Bills.Reminder.Worker.Core.Domain\Bills.Reminder.Worker.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bills.Reminder.Worker.Api", "Bills.Reminder.Worker.Api.csproj", "{D32C5431-5038-4CDA-9433-25DFFF5D9F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{105F8A6B-5734-4CFA-9129-D4AD7AB3EA08}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{46C4CA99-DEA2-4DAD-B528-CFFDFBA44A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{49599437-4905-4200-BF72-A79F90DE77E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C5B330ED-2400-4DB0-B03C-6FEB6274C952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bills.Reminder.Worker.Core.Domain", "Bills.Reminder.Worker.Core.Domain\Bills.Reminder.Worker.Core.Domain.csproj", "{F6F75DC4-FE94-4757-8B25-843A150CDB08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bills.Reminder.Worker.Core.Application", "..\Bills.Reminder.Worker.Core.Application\Bills.Reminder.Worker.Core.Application.csproj", "{5338CDD5-5CD8-4B30-B754-4B70E4E78F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{E9018AD4-4F92-4E82-A285-6AF1289C42FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{DBA63C07-36F5-410D-B05F-41D1641BA757}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D32C5431-5038-4CDA-9433-25DFFF5D9F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32C5431-5038-4CDA-9433-25DFFF5D9F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32C5431-5038-4CDA-9433-25DFFF5D9F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32C5431-5038-4CDA-9433-25DFFF5D9F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F75DC4-FE94-4757-8B25-843A150CDB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F75DC4-FE94-4757-8B25-843A150CDB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F75DC4-FE94-4757-8B25-843A150CDB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F75DC4-FE94-4757-8B25-843A150CDB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5338CDD5-5CD8-4B30-B754-4B70E4E78F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5338CDD5-5CD8-4B30-B754-4B70E4E78F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5338CDD5-5CD8-4B30-B754-4B70E4E78F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5338CDD5-5CD8-4B30-B754-4B70E4E78F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D32C5431-5038-4CDA-9433-25DFFF5D9F81} = {105F8A6B-5734-4CFA-9129-D4AD7AB3EA08}
+		{105F8A6B-5734-4CFA-9129-D4AD7AB3EA08} = {DBA63C07-36F5-410D-B05F-41D1641BA757}
+		{46C4CA99-DEA2-4DAD-B528-CFFDFBA44A58} = {DBA63C07-36F5-410D-B05F-41D1641BA757}
+		{49599437-4905-4200-BF72-A79F90DE77E1} = {DBA63C07-36F5-410D-B05F-41D1641BA757}
+		{F6F75DC4-FE94-4757-8B25-843A150CDB08} = {46C4CA99-DEA2-4DAD-B528-CFFDFBA44A58}
+		{5338CDD5-5CD8-4B30-B754-4B70E4E78F62} = {46C4CA99-DEA2-4DAD-B528-CFFDFBA44A58}
+		{E9018AD4-4F92-4E82-A285-6AF1289C42FE} = {105F8A6B-5734-4CFA-9129-D4AD7AB3EA08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94A600F8-7B04-4682-BDCE-1C30ECB4455A}
+	EndGlobalSection
+EndGlobal
